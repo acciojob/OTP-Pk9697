@@ -8,6 +8,12 @@ h1,h2,h3,p {
 	margin:0;
 }
 
+input[type='number']::-webkit-inner-spin-button, 
+input[type='number']::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .container{
 	display:flex;
 	justify-content:center;
@@ -29,17 +35,14 @@ h1,h2,h3,p {
 
 .code-container{
 	display:flex;
-	gap:0.5em;
+	gap:1em;
 }
 
 .code{
 	/* padding:2em 1em; */
-	width:50px;
+	/* padding:0.2em 0em; */
+	width:60px;
 	height:75px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
 	text-align:center;
-	padding:0;
-	margin:0;
+	font-size:2rem;
 }
